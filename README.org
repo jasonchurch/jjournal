@@ -1,0 +1,11 @@
+* jjournal
+** Installation
+   Using npm:
+   #+BEGIN_SRC js
+   npm i orglib --save
+   #+END_SRC
+
+   In Node.js:
+   #+BEGIN_SRC js
+   var orglib = require('jjournal');
+   #+END_SRC

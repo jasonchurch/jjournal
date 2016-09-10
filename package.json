@@ -1,0 +1,18 @@
+{
+  "name": "jjournal",
+  "version": "0.0.1",
+  "description": "jJournal is a library of journal objects to be used in conjuction with the jjournal set of libraries.",
+  "main": "jjournal.js",
+  "scripts": {
+    "test": "istanbul cover --include-all-sources -x '**/spec/**' jasmine-node spec",
+    "unit": "jasmine-node spec"
+  },
+  "author": "Jason Church <jason.church@edeveloper.ca>",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "mock-fs": "^3.11.0"
+  }
+}
